@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-/*
+/**
+ * main - print string in puts function
  *
- * main - Entry point
- *
+ * Description: print string using puts
  * Return: Always 0 (Success)
- *
- *    
  */
 int main(void)
 {
