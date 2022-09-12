@@ -5,15 +5,15 @@
 /**
  * main - Entry point
  *
- * Description:using main function
- * Program to print alphabet in lower case
- * Return: Always 0 (Success)
+ * Description: using main function
+ * program lower case alphbelt in reverse
+ * REtruun: Always 0 (Success)
  */
 int main(void)
 {
 	char low;
 
-	for (low = 'a'; low <= 'z'; low++)
+	for (low = 'z'; low >= 'a'; low--)
 		putchar(low);
 		putchar('\n');
 
