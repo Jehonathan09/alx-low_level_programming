@@ -10,14 +10,20 @@
  */
 int main(void)
 {
-	int d;
-	char low;
+	char c = 'a';
+	int num;
 
-	for ( d = '0'; d <= '9'; d++)
-		putchar(d);
-	for (low = 'a'; low <= 'f'; low++)
-		putchar(low);
+	for (num = 0; num < 16; num++)
+	{
+		if (num < 10)
+		{
+			putchar(num + '0');
+		}else
+		{
+			putchar(c);
+			c++;
+		}
+	}
 	putchar('\n');
-
 	return (0);
 }
