@@ -7,7 +7,7 @@
  *
  * Description: using main function
  * program lower case alphbelt in reverse
- * REtruun: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
