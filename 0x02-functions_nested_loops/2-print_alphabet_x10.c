@@ -2,7 +2,7 @@
 
 /**
  * print-alphabet_x10 - print alpha x10
- * @void: no arguments.
+ * Description:function that prints 10 times the alphabet, in lowercase, followed by a new line
  * Return: void
  */
 
@@ -16,7 +16,7 @@ void print_alphabet_x10(void)
 	while (i < 10)
 	{
 		c = 'a';
-		while( c <= 'z')
+		while(c <= 'z')
 		{
 			_putchar(c);
 			c++;
