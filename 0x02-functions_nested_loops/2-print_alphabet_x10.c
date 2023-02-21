@@ -2,7 +2,7 @@
 
 /**
  * print-alphabet_x10 - print alpha x10
- * Description:function that prints 10 times the alphabet, in lowercase, followed by a new line
+ * Description:prints 10 times the alphabet, in lowercase, followed by a new line.
  * Return: void
  */
 
@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 
 	i = 0;
 
-	while (i < 10)
+	while(i < 10)
 	{
 		c = 'a';
 		while(c <= 'z')
