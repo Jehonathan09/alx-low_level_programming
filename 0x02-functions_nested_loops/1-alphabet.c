@@ -9,11 +9,11 @@
 
 void print_alphabet(void)
 {
-	char alpabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 	while(i < 26)
 	{
-		_putchar(alphabelt[i]);
+		_putchar(alphabet[i]);
 		i++;
 	}
 	_putchar('\n');
