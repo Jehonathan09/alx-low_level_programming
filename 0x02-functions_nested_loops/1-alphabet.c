@@ -4,17 +4,17 @@
 /**
  * print_alphabet - Entry Point
  * Description: prints the alphabet, in lowercase, followed by a new line.
- * Retur: Always 0 (Success)
+ * Retur: void
  */
 
-void print_alphabelt(void)
+void print_alphabet(void)
 {
-	char c = 'a';
-
-	while (c <= 'z')
+	char alpabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i = 0;
+	while(i < 26)
 	{
-		_putchar(c);
-		c++;
+		_putchar(alphabelt[i]);
+		i++;
 	}
 	_putchar('\n');
 }
