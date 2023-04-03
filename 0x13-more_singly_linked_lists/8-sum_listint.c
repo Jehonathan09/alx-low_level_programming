@@ -6,16 +6,16 @@
  * Return: sum of all the data (n),
  *         or 0 - if the list is empty
  */
-
 int sum_listint(listint_t *head)
 {
-	int add;
+int add;
 
-	while(head)
-	{
-		add += head->n;
-		head = head->next;
-	}
-	return (add);
+add = 0;
+
+while (head)
+{
+add += head->n;
+head = head->next;
 }
-
+return (add);
+}
