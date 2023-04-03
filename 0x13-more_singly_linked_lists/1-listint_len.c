@@ -6,10 +6,9 @@
  *
  * Return: the number of elements
  */
-
 size_t listint_len(const listint_t *h)
 {
-	const listint_t *current = h;
+	const listint_t *cursor = h;
 	size_t count = 0;
 
 	while (cursor != NULL)
@@ -19,4 +18,3 @@ size_t listint_len(const listint_t *h)
 	}
 	return (count);
 }
-
